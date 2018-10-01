@@ -132,8 +132,6 @@ HVK_CLAN_FOTO_WIDTH = '100em'
 HVK_PRAZAN_DAT_DO = '...'
 HVK_AUTOCOMPLETE_RECORD_COUNT = 10
 
-J2I_MUP = 'http://127.0.0.1:8000/sim/mup-osobe/%s'
-
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         # 'rest_framework.authentication.BasicAuthentication',
