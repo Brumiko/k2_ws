@@ -1,0 +1,1 @@
+from .mup_reg_osoba_admin import MUPRegOsobaAdmin

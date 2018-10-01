@@ -1,0 +1,21 @@
+/rest-auth/                 # prazno 404
+    /login/
+    /logout/
+    /password/              # prazno 404
+        /reset/
+            /confirm/
+        /change/
+    /user/
+    /registration/
+        /verify-email/
+                            # Možemo dodati /facebook/ i /twitter/
+- - - -
+/api/
+    /clanovi/
+        /<username>/
+            /kontakti/
+                /<id>/
+            /mjesnosti/
+                /<id>/
+            /radna_mjesta/
+                /<id>/
