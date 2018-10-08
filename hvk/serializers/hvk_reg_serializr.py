@@ -31,10 +31,10 @@ class HVKRegSerializr(RegisterSerializer):
         # Validiraj korisničko ime u tablici Clan. Vjerojatno nepotrebno.
         if Clan.objects.filter(oib=osoba['oib']).exists():
             raise serializers.ValidationError(
-                'Za OIB {0} je već podnesen zahtjev za članstvo. ' +
+                'Za OIB {0} je već podnesen zahtjev za članstvo. '.format(osoba['oib']) +
                 'Ako ste ga podnijeli vi, onda se ne trebate opet registrirati, ' +
                 'nego možete nastaviti raditi tako ' +
-                'da se prijavite svojim korisničkim imenom i lozinkom.'.format(osoba['oib'])
+                'da se prijavite svojim korisničkim imenom i lozinkom.'
             )
 
         # Ako su validacije uspješne, dodaj dohvaćene osobne podatke u odgovarajuću kolekciju.
