@@ -1,4 +1,5 @@
 from .tajna import *
+from .url_prefix import *
 import datetime
 import os
 
@@ -65,6 +66,7 @@ TEMPLATES = [
         ,
         'APP_DIRS': True,
         'OPTIONS': {
+            'debug': True,
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',

@@ -17,3 +17,5 @@ urlpatterns = [
     url(r'^obtain-token/', obtain_jwt_token),
     url(r'^verify-token/', verify_jwt_token)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns = [url(r'^{0}'.format(settings.URL_PREFIX), include(urlpatterns))]
