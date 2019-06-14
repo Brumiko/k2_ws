@@ -79,11 +79,11 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'k2_ws.wsgi.application'
-STATIC_URL = '{0}/static/'.format(URL_PREFIX)
+STATIC_URL = '/{0}/static/'.format(URL_PREFIX)
 # STATICFILES_DIRS = [STATIC_DIR, ]
 MEDIA_ROOT = MEDIA_DIR
 STATIC_ROOT = STATIC_DIR
-MEDIA_URL = '{0}/media/'.format(URL_PREFIX)
+MEDIA_URL = '/{0}/media/'.format(URL_PREFIX)
 
 # DATABASES podaci su u tajni. ;-)
 
