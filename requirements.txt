@@ -4,13 +4,12 @@ chardet==3.0.4                      # Uvjet (hr. rikvajerment) za Core API.
 coreschema==0.0.4                   # Uvjet (hr. rikvajerment) za Core API.
 idna==2.6                           # Uvjet (hr. rikvajerment) za Core API.
 itypes==1.1.0                       # Uvjet (hr. rikvajerment) za Core API.
-jinja2==2.10                        # Uvjet (hr. rikvajerment) za Core API.
-# MarkupSafe==1.0                     # Uvjet (hr. rikvajerment) za Core API.
+jinja2==2.10.1                      # Uvjet (hr. rikvajerment) za Core API.
 MarkupSafe==1.1.1                   # Uvjet (hr. rikvajerment) za Core API.
-requests==2.18.4                    # Uvjet (hr. rikvajerment) za Core API.
+requests==2.20.0                    # Uvjet (hr. rikvajerment) za Core API.
 uritemplate==3.0.0                  # Uvjet (hr. rikvajerment) za Core API.
-urllib3==1.22                       # Uvjet (hr. rikvajerment) za Core API.
-Django==2.0.5                   # DEFAULT: Django.
+urllib3==1.24.2                     # Uvjet (hr. rikvajerment) za Core API.
+Django==2.2.13                  # DEFAULT: Django.
 django-allauth==0.36.0          # Za autentikaciju DRF-om.
 defusedxml==0.5.0                    # Uvjet za django-allauth.
 oauthlib==2.1.0                      # Uvjet za django-allauth.
@@ -20,13 +19,14 @@ django-cors-headers==2.4.0      # ...
 django-filter==1.1.0            # za DRF: '...allows users to filter down a queryset...'
 django-rest-auth==0.9.3         # Za autentikaciju DRF-om.
 django-suit==0.2.26             # Za lijep izgled Django admina.
-djangorestframework==3.8.2      # Django REST framework (DRF)
+# djangorestframework==3.8.2      # Django REST framework (DRF)
+djangorestframework==3.9.1      # Django REST framework (DRF)
 djangorestframework-jwt==1.11.0 # Za autentikaciju DRF-om (sigurna izvedba tokena).
-httpie==0.9.9                   # Za testiranje web API-ja iz konzole.
+# httpie==0.9.9                   # Za testiranje web API-ja iz konzole.
+httpie==1.0.3                   # Za testiranje web API-ja iz konzole.
 Pygments==2.2.0                     # Uvjet (jedan od) za httpie.
 PyJWT==1.6.4                        # Uvjet za djangorestframework-jwt.
 Markdown==2.6.11                # '...used by the browsable API views (DRF)...'
-# Pillow==5.1.0                   # Biblioteka za rad sa slikama. TREBA LI?!?
-Pillow==7.1.0                   # Biblioteka za rad sa slikama. Radi sigurnosne rupe.
+Pillow==7.1.0                   # Biblioteka za rad sa slikama.
 psycopg2==2.7.4                 # Biblioteka za pristup Postgresu.
 pytz==2018.4                    # DEFAULT: Django.
