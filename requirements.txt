@@ -5,7 +5,8 @@ coreschema==0.0.4                   # Uvjet (hr. rikvajerment) za Core API.
 idna==2.6                           # Uvjet (hr. rikvajerment) za Core API.
 itypes==1.1.0                       # Uvjet (hr. rikvajerment) za Core API.
 jinja2==2.10                        # Uvjet (hr. rikvajerment) za Core API.
-MarkupSafe==1.0                     # Uvjet (hr. rikvajerment) za Core API.
+# MarkupSafe==1.0                     # Uvjet (hr. rikvajerment) za Core API.
+MarkupSafe==1.1.1                   # Uvjet (hr. rikvajerment) za Core API.
 requests==2.18.4                    # Uvjet (hr. rikvajerment) za Core API.
 uritemplate==3.0.0                  # Uvjet (hr. rikvajerment) za Core API.
 urllib3==1.22                       # Uvjet (hr. rikvajerment) za Core API.
