@@ -26,6 +26,7 @@ httpie==0.9.9                   # Za testiranje web API-ja iz konzole.
 Pygments==2.2.0                     # Uvjet (jedan od) za httpie.
 PyJWT==1.6.4                        # Uvjet za djangorestframework-jwt.
 Markdown==2.6.11                # '...used by the browsable API views (DRF)...'
-Pillow==5.1.0                   # Biblioteka za rad sa slikama. TREBA LI?!?
+# Pillow==5.1.0                   # Biblioteka za rad sa slikama. TREBA LI?!?
+Pillow==7.1.0                   # Biblioteka za rad sa slikama. Radi sigurnosne rupe.
 psycopg2==2.7.4                 # Biblioteka za pristup Postgresu.
 pytz==2018.4                    # DEFAULT: Django.
